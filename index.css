@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(236, 226, 212);
+}
+
+.container {
+
+    max-width: 600px;
+    height: 20%;
+    margin: 50px auto;
+    padding: 8%;
+    background-color: teal;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: bisque;
+}
+h3 {
+    color: bisque;
+}
+
+
+.choices {
+    margin-top: 20px;
+    
+}
+
+.choice {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 20px;
+    padding: 10px 20px;
+}
+
+#result {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 20px;
+    color: bisque;
+}
+#rock{
+    background-color: orangered;
+
+}
+#paper{
+    background-color: #007bff;
+}
+#scissors{
+    background-color: green;
+}
